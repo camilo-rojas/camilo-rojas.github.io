@@ -2,80 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Archive on Camilo Rojas</title>
-    <link>https://camilorojas.co/archive/</link>
+    <link>http://localhost:1313/archive/</link>
     <description>Recent content in Archive on Camilo Rojas</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 02 Jun 2021 17:20:27 +0000</lastBuildDate>
-    <atom:link href="https://camilorojas.co/archive/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/archive/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lakehouse: La evolución de las arquitecturas de datos modernas</title>
-      <link>https://camilorojas.co/archive/lakehouse-arquitectura-datos-moderna-2021/</link>
+      <link>http://localhost:1313/archive/lakehouse-arquitectura-datos-moderna-2021/</link>
       <pubDate>Wed, 02 Jun 2021 17:20:27 +0000</pubDate>
-      <guid>https://camilorojas.co/archive/lakehouse-arquitectura-datos-moderna-2021/</guid>
+      <guid>http://localhost:1313/archive/lakehouse-arquitectura-datos-moderna-2021/</guid>
       <description>Explora la evolución de los repositorios de datos empresariales desde Data marts hasta Lakehouse, incluyendo casos de uso, arquitectura y mejores prácticas para implementar esta moderna aproximación de almacenamiento y procesamiento de datos.</description>
     </item>
     <item>
       <title>La importancia de un catálogo de datos para maximizar el uso de los datos</title>
-      <link>https://camilorojas.co/archive/importancia-catalogo-datos-2021/</link>
+      <link>http://localhost:1313/archive/importancia-catalogo-datos-2021/</link>
       <pubDate>Mon, 24 May 2021 20:02:03 +0000</pubDate>
-      <guid>https://camilorojas.co/archive/importancia-catalogo-datos-2021/</guid>
+      <guid>http://localhost:1313/archive/importancia-catalogo-datos-2021/</guid>
       <description>Explora la importancia de los catálogos de datos modernos para maximizar el uso empresarial de la información, incluyendo funciones clave, roles de usuario y el impacto transformador de la AI en la gestión de metadatos.</description>
     </item>
     <item>
       <title>¿Cómo acelerar la adopción de una cultura analítica en mi compañía?</title>
-      <link>https://camilorojas.co/archive/acelerar-cultura-analitica-empresarial-2021/</link>
+      <link>http://localhost:1313/archive/acelerar-cultura-analitica-empresarial-2021/</link>
       <pubDate>Mon, 17 May 2021 20:02:26 +0000</pubDate>
-      <guid>https://camilorojas.co/archive/acelerar-cultura-analitica-empresarial-2021/</guid>
+      <guid>http://localhost:1313/archive/acelerar-cultura-analitica-empresarial-2021/</guid>
       <description>Guía estratégica para acelerar la adopción de una cultura analítica empresarial, cubriendo aspectos clave desde liderazgo ejecutivo hasta metodologías prácticas para transformar la toma de decisiones basada en datos.</description>
     </item>
     <item>
       <title>Experiencia en la adopción de AI en las compañías en Latino América</title>
-      <link>https://camilorojas.co/archive/experiencia-adopcion-ai-latinoamerica-2021/</link>
+      <link>http://localhost:1313/archive/experiencia-adopcion-ai-latinoamerica-2021/</link>
       <pubDate>Tue, 11 May 2021 00:11:50 +0000</pubDate>
-      <guid>https://camilorojas.co/archive/experiencia-adopcion-ai-latinoamerica-2021/</guid>
+      <guid>http://localhost:1313/archive/experiencia-adopcion-ai-latinoamerica-2021/</guid>
       <description>Lecciones aprendidas en la adopción de Inteligencia Artificial en compañías de Latino América, incluyendo cinco elementos críticos para el éxito: casos de uso, skills y talento, datos, tecnología y organización.</description>
     </item>
     <item>
       <title>Experiencia en la adopción de AI en las compañías en Latino América</title>
-      <link>https://camilorojas.co/archive/experiencia-adopcion-ai-latinoamerica/</link>
+      <link>http://localhost:1313/archive/experiencia-adopcion-ai-latinoamerica/</link>
       <pubDate>Tue, 11 May 2021 00:11:50 +0000</pubDate>
-      <guid>https://camilorojas.co/archive/experiencia-adopcion-ai-latinoamerica/</guid>
+      <guid>http://localhost:1313/archive/experiencia-adopcion-ai-latinoamerica/</guid>
       <description>Regresando con el blog, vuelvo a escribir con algunas lecciones aprendidas durante este año, en el cual he tenido la oportunidad de acompañar y revisar a docenas de proyectos en clientes y resumir algunos elementos comunes que puedan ser útiles para ustedes.</description>
     </item>
     <item>
       <title>Video Tutorial: Análisis de Tweets con IBM Cloud y Node-RED</title>
-      <link>https://camilorojas.co/archive/tutorial-analisis-tweets-ibm-cloud/</link>
+      <link>http://localhost:1313/archive/tutorial-analisis-tweets-ibm-cloud/</link>
       <pubDate>Thu, 19 Jul 2018 20:21:01 +0000</pubDate>
-      <guid>https://camilorojas.co/archive/tutorial-analisis-tweets-ibm-cloud/</guid>
+      <guid>http://localhost:1313/archive/tutorial-analisis-tweets-ibm-cloud/</guid>
       <description>Tutorial introductorio sobre cómo usar la plataforma PaaS de IBM Cloud para crear un flujo básico de captura y análisis de tweets usando Node-RED y Node.js.</description>
     </item>
     <item>
       <title>Video: Introducción al IBM Cloud Watson Data Platform</title>
-      <link>https://camilorojas.co/archive/introduccion-watson-data-platform/</link>
+      <link>http://localhost:1313/archive/introduccion-watson-data-platform/</link>
       <pubDate>Sun, 01 Jul 2018 19:46:01 +0000</pubDate>
-      <guid>https://camilorojas.co/archive/introduccion-watson-data-platform/</guid>
+      <guid>http://localhost:1313/archive/introduccion-watson-data-platform/</guid>
       <description>Revisión rápida de la plataforma de analítica de IBM Cloud, incluyendo Watson Studio, grabada en marzo de 2018 y actualizada con los cambios posteriores al evento IBM Think.</description>
     </item>
     <item>
       <title>Watson Analytics: Lanzamiento de la Herramienta Analítica Freemium de IBM</title>
-      <link>https://camilorojas.co/archive/watson-analytics-freemium-launch/</link>
+      <link>http://localhost:1313/archive/watson-analytics-freemium-launch/</link>
       <pubDate>Wed, 17 Sep 2014 00:19:47 +0000</pubDate>
-      <guid>https://camilorojas.co/archive/watson-analytics-freemium-launch/</guid>
+      <guid>http://localhost:1313/archive/watson-analytics-freemium-launch/</guid>
       <description>Análisis del lanzamiento público de Watson Analytics, la solución freemium de IBM que democratiza el análisis de datos empresariales sin necesidad de un data scientist.</description>
     </item>
     <item>
       <title>6 retos en la adopción de Hadoop en Suramérica</title>
-      <link>https://camilorojas.co/archive/hadoop-adoption-challenges-south-america/</link>
+      <link>http://localhost:1313/archive/hadoop-adoption-challenges-south-america/</link>
       <pubDate>Tue, 15 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>https://camilorojas.co/archive/hadoop-adoption-challenges-south-america/</guid>
+      <guid>http://localhost:1313/archive/hadoop-adoption-challenges-south-america/</guid>
       <description>Análisis de los seis principales desafíos en la adopción de Hadoop en Suramérica, comparando patrones con Norteamérica e identificando casos de éxito en banca, telecomunicaciones y retail.</description>
     </item>
     <item>
       <title>Watson Foundations: una propuesta de simplicidad para proyectos de Big Data and Analytics</title>
-      <link>https://camilorojas.co/archive/watson-foundations-big-data-analytics/</link>
+      <link>http://localhost:1313/archive/watson-foundations-big-data-analytics/</link>
       <pubDate>Tue, 08 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>https://camilorojas.co/archive/watson-foundations-big-data-analytics/</guid>
+      <guid>http://localhost:1313/archive/watson-foundations-big-data-analytics/</guid>
       <description>Una propuesta de IBM Watson Foundations para abordar la complejidad en proyectos de Big Data y Analytics, incluyendo arquitectura de plataforma y la integración de tecnologías tradicionales con emergentes.</description>
     </item>
   </channel>

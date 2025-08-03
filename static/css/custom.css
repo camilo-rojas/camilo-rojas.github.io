@@ -26,12 +26,56 @@ header {
 main {
     padding-top: 0;
     margin-top: -0.5rem;
+    min-height: auto !important;
+    flex: 1 0 auto;
+}
+
+/* Make body a flexbox container for better layout control */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Ensure footer stays at bottom but doesn't create excessive space */
+footer {
+    margin-top: auto;
 }
 
 /* Improve section page layout */
 .container {
     padding-top: 0.25rem;
     padding-bottom: 0.5rem;
+}
+
+/* Responsive layout adjustments */
+@media (max-height: 800px) {
+    /* Reduce margins on shorter screens */
+    header {
+        margin-bottom: 0.5rem !important;
+    }
+    
+    footer {
+        margin-top: 1rem;
+        padding: 1rem 0;
+    }
+}
+
+/* Very compact layout for small screens */
+@media (max-height: 600px) {
+    header {
+        padding: 0.5rem 0;
+        margin-bottom: 0.25rem !important;
+    }
+    
+    footer {
+        padding: 0.5rem 0;
+    }
+    
+    .container {
+        padding-top: 0.1rem;
+        padding-bottom: 0.25rem;
+    }
 }
 
 /* Force very tight spacing between title and content */
@@ -87,12 +131,47 @@ main > .container > article header .post-meta {
 /* Keep normal spacing for post list items */
 .post-item {
     margin-bottom: 1rem;
+    background-color: var(--ctp-surface0) !important;
+    border-radius: 8px !important;
+    padding: 1.5rem !important;
+    transition: background-color 0.2s ease !important;
+}
+
+.post-item:hover {
+    background-color: var(--ctp-surface1) !important;
 }
 
 .post-item article header {
     margin-bottom: 0.5rem !important;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* Ensure post titles are visible */
+.post-item .post-title {
+    margin-top: 0 !important;
+    margin-bottom: 0.5rem !important;
+}
+
+.post-item .post-title a {
+    color: var(--ctp-text) !important;
+    text-decoration: none !important;
+}
+
+.post-item .post-title a:hover {
+    color: var(--ctp-blue) !important;
+}
+
+/* Make sure post meta and summary are visible */
+.post-item .post-meta {
+    color: var(--ctp-subtext0) !important;
+    font-size: 0.9rem !important;
+    margin-bottom: 1rem !important;
+}
+
+.post-item .post-summary {
+    color: var(--ctp-text) !important;
+    line-height: 1.6 !important;
 }
 
 /* Improve post meta spacing */
