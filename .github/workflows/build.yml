@@ -62,5 +62,5 @@ jobs:
           else
             git commit -m "Deploy site - $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
             git push origin main
-            echo "Site deployed successfully with SSH - test $(date)"
+            echo "Site deployed successfully with webfactory/ssh-agent at $(date)"
           fi
