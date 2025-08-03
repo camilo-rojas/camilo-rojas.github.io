@@ -68,5 +68,5 @@ jobs:
           else
             git commit -m "Deploy site - $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
             git push origin main
-            echo "Site deployed successfully at $(date) - Pages configured correctly"
+            echo "Site deployed successfully with SSH at $(date)"
           fi
