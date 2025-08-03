@@ -1,0 +1,39 @@
+baseURL = 'https://camilorojas.co/'
+languageCode = 'en-us'
+title = 'Camilo Rojas'
+theme = 'catppuccin-mocha'
+
+[params]
+  author = 'Camilo Rojas'
+  description = 'Personal blog and thoughts'
+  
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+
+[menu]
+  [[menu.main]]
+    name = 'Home'
+    url = '/'
+    weight = 10
+  [[menu.main]]
+    name = 'AI for Business'
+    url = '/posts/'
+    weight = 20
+  [[menu.main]]
+    name = 'Apps'
+    url = '/apps/'
+    weight = 25
+  [[menu.main]]
+    name = 'Archive'
+    url = '/archive/'
+    weight = 30
+  [[menu.main]]
+    name = 'About'
+    url = '/about/'
+    weight = 35

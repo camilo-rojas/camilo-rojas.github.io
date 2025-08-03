@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Technology-Adoption on Camilo Rojas</title>
+    <link>http://localhost:1313/tags/technology-adoption/</link>
+    <description>Recent content in Technology-Adoption on Camilo Rojas</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 15 Apr 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/technology-adoption/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>6 retos en la adopción de Hadoop en Suramérica</title>
+      <link>http://localhost:1313/archive/hadoop-adoption-challenges-south-america/</link>
+      <pubDate>Tue, 15 Apr 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/archive/hadoop-adoption-challenges-south-america/</guid>
+      <description>Análisis de los seis principales desafíos en la adopción de Hadoop en Suramérica, comparando patrones con Norteamérica e identificando casos de éxito en banca, telecomunicaciones y retail.</description>
+    </item>
+  </channel>
+</rss>

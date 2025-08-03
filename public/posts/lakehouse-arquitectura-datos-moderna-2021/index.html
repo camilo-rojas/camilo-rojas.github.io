@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lakehouse: La evolución de las arquitecturas de datos modernas | Camilo Rojas</title>
+
+
+
+  
+
+<meta name="description" content="Explora la evolución de los repositorios de datos empresariales desde Data marts hasta Lakehouse, incluyendo casos de uso, arquitectura y mejores prácticas para implementar esta moderna aproximación de almacenamiento y procesamiento de datos.">
+
+<meta name="author" content="Camilo Rojas">
+<meta name="generator" content="Hugo 0.148.2">
+
+
+<meta property="og:type" content="article">
+
+<meta property="og:title" content="Lakehouse: La evolución de las arquitecturas de datos modernas">
+<meta property="og:description" content="Explora la evolución de los repositorios de datos empresariales desde Data marts hasta Lakehouse, incluyendo casos de uso, arquitectura y mejores prácticas para implementar esta moderna aproximación de almacenamiento y procesamiento de datos.">
+<meta property="og:url" content="http://localhost:1313/posts/lakehouse-arquitectura-datos-moderna-2021/">
+<meta property="og:site_name" content="Camilo Rojas">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Lakehouse: La evolución de las arquitecturas de datos modernas">
+<meta name="twitter:description" content="Explora la evolución de los repositorios de datos empresariales desde Data marts hasta Lakehouse, incluyendo casos de uso, arquitectura y mejores prácticas para implementar esta moderna aproximación de almacenamiento y procesamiento de datos.">
+
+<link rel="canonical" href="http://localhost:1313/posts/lakehouse-arquitectura-datos-moderna-2021/">
+
+
+    <link rel="stylesheet" href="/css/main.css">
+
+
+      <script src="/js/main.js"></script>
+
+
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-content">
+  <a href="http://localhost:1313/" class="site-title">Camilo Rojas</a>
+  <nav>
+    
+  <ul>
+    <li>
+      <a href="/">Home</a>
+    </li>
+    <li>
+      <a href="/posts/">AI for Business</a>
+    </li>
+    <li>
+      <a href="/archive/">Archive</a>
+    </li>
+    <li>
+      <a href="/about/">About</a>
+    </li>
+  </ul>
+
+  </nav>
+</div>
+
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      
+  <article>
+    <header>
+      <h1>Lakehouse: La evolución de las arquitecturas de datos modernas</h1>
+      
+        <div class="post-meta">
+          
+          
+          <time datetime="2021-06-02T17:20:27&#43;00:00">June 2, 2021</time>
+          
+  <div>
+    <div>Tags:</div>
+    <ul>
+        <li><a href="/tags/lakehouse/">Lakehouse</a></li>
+        <li><a href="/tags/data-architecture/">Data Architecture</a></li>
+        <li><a href="/tags/data-warehouse/">Data Warehouse</a></li>
+        <li><a href="/tags/data-lake/">Data Lake</a></li>
+        <li><a href="/tags/analytics/">Analytics</a></li>
+        <li><a href="/tags/big-data/">Big-Data</a></li>
+    </ul>
+  </div>
+
+        </div>
+      
+    </header>
+    
+    <div class="content">
+      <p><img src="https://cdn-images-1.medium.com/max/800/1*JUCvRNk9xjo1771VSgNaPw.jpeg" alt="Lakehouse Architecture"></p>
+<p>Históricamente desde el clásico Data warehouse, el objetivo ha sido el mismo, lograr curar la información empresarial en un solo sitio para poder extraer el valor de los datos y convertirlo en una plataforma que soporte al negocio facilitando la toma de decisión.</p>
+<h2 id="evolución-de-los-repositorios-de-datos">Evolución de los repositorios de datos</h2>
+<p>Las primeras versiones de estos repositorios de datos en las compañías evolucionaron de:</p>
+<ul>
+<li>Data marts → Data Warehouse → Data Lakes (inicialmente Data Swamps) → Data Hub → <strong>Lakehouse</strong></li>
+</ul>
+<h2 id="casos-de-uso-principales-del-lakehouse">Casos de uso principales del Lakehouse</h2>
+<p>Los casos de uso principales para estos Lakehouse son evolutivos de las versiones anteriores, e incluyen:</p>
+<ul>
+<li>Descubrimiento y exploración de datos</li>
+<li>Repositorio y procesamiento de streams</li>
+<li>Almacenar y enriquecer información estructurada, semi estructurada y no estructurada</li>
+<li>Archivado de información</li>
+</ul>
+<h2 id="arquitectura-del-lakehouse">Arquitectura del Lakehouse</h2>
+<p>Desde un punto de vista de arquitectura se mantiene el modelo general de arquitectura basado en un modelo de consumo multimodal, por ejemplo incluyo el modelo de IBM de la arquitectura de analítica:</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*Dk0TeFYDVpdTST5p4HI0hg.png" alt="Arquitectura de Analytics"></p>
+<h2 id="mejores-prácticas-y-recomendaciones">Mejores prácticas y recomendaciones</h2>
+<p>Algunas recomendaciones y mejores prácticas para su Lakehouse:</p>
+<ul>
+<li>Evitar acoplar los componentes de la arquitectura de información o peor generar dependencias de su proveedor de nube</li>
+<li>Automatizar los procesos de Data Ops para disminuir la fricción</li>
+<li>Asegurar la ejecución de los procesos, políticas y reglas definidas en la disciplina de Gobierno de información</li>
+</ul>
+<p>Realicemos una revisión de las distintas capas y recomendaciones del Lakehouse.</p>
+<h2 id="capas-del-lakehouse">Capas del Lakehouse</h2>
+<h3 id="ingesta">Ingesta</h3>
+<p>Los estilos de ingesta de información en el Lakehouse incluyen los tradicionales como:</p>
+<ol>
+<li>Cargas batch</li>
+<li>Virtualización de datos</li>
+<li>Data Hub integration</li>
+<li>Streams</li>
+<li>Replicación y/o sincronización de datos</li>
+</ol>
+<p>Independiente del modelo de ingesta, debe existir un modelo de descubrimiento, catálogo, calidad, e integración.</p>
+<h3 id="almacenamiento">Almacenamiento</h3>
+<p>El almacenamiento en el Lakehouse debe ser acorde con el tipo de dato a ser tratado. Algunos de los tipos de almacenamiento más comunes son:</p>
+<ol>
+<li>Bases de datos NoSQL</li>
+<li>Bases de datos relacionales</li>
+<li>Repositorio de eventos</li>
+<li>Bases de datos en memoria</li>
+<li>Sistemas de archivos distribuidos</li>
+<li>Object stores</li>
+</ol>
+<h3 id="procesamiento">Procesamiento</h3>
+<p>El Lakehouse mantiene también la flexibilidad para poder operar y procesar datos en distintas modalidades como:</p>
+<ol>
+<li>Batch</li>
+<li>Stream computing</li>
+<li>Procesos de Machine learning</li>
+<li>Procesos basados en grafos</li>
+<li>Procesamiento de SQL analítico (OLAP)</li>
+<li>Procesamiento transaccional (OLTP, ACID)</li>
+</ol>
+<h3 id="consumo">Consumo</h3>
+<p>El Lakehouse logra ofrecer los servicios analíticos para distintos roles y consumidores de datos. El consumo de los datos a través del Lakehouse se realiza a través de:</p>
+<ol>
+<li>Separar la concurrencia del caso de uso de BI del trabajo de exploración en sandboxes</li>
+<li>Apoyarse en el catálogo de servicios para guiar y ayudar al proceso de búsqueda de activos de información</li>
+<li>Fomentar el autoservicio para solicitar y para consumir los datos</li>
+</ol>
+<h3 id="gobierno-en-el-lakehouse">Gobierno en el Lakehouse</h3>
+<p>Algunos aspectos a cubrir en el área de gobierno de información incluyen:</p>
+<ol>
+<li>Catálogo de información</li>
+<li>Procesos de gobierno de información</li>
+<li>Gestión del ciclo de vida de la información</li>
+<li>Operaciones, que incluye elementos</li>
+</ol>
+<h2 id="ventajas-del-modelo-lakehouse">Ventajas del modelo Lakehouse</h2>
+<p>Todas estas capas en conjunto ofrecen una plataforma analítica que permite reconciliar multiples tipos de datos independiente de su ubicación, estructura, tamaño o complejidad. Esto plantea un modelo a seguir a futuro que está siendo adoptado por muchos fabricantes en donde se separan los componentes de almacenamiento de datos (prefiriendo modelos de bajo costo como Object Storage) y la capa de procesamiento aprovechando estándares abiertos.</p>
+<p>Estos junto a un cambio en el modelo de consumo en donde se premian modelos de pago por consumo y utilización oportunista de estas plataformas han permitido también disminuir las barreras de adopción de estas tecnologías.</p>
+<h2 id="conclusión">Conclusión</h2>
+<p>Como conclusión esperamos una continua evolución de los modelos de explotación, exploración y análisis de datos que utilicen estas estrategias abiertas y con independencia de capas, y muchas de ellas explotadas a través de la nube. Y el concepto del Lakehouse seguirá evolucionando buscando reducir los costos de operación y fomentando flexibilidad y beneficios para el negocio.</p>
+
+    </div>
+  </article>
+
+    </div>
+  </main>
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Camilo Rojas.</p>
+
+    </div>
+  </footer>
+</body>
+</html>

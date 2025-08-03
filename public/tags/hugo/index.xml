@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on Camilo Rojas</title>
+    <link>http://localhost:1313/tags/hugo/</link>
+    <description>Recent content in Hugo on Camilo Rojas</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Jan 2025 10:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome to My Blog</title>
+      <link>http://localhost:1313/posts/welcome-to-my-blog/</link>
+      <pubDate>Wed, 01 Jan 2025 10:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/welcome-to-my-blog/</guid>
+      <description>Introducing my new blog built with Hugo and styled with the beautiful Catppuccin Mocha theme.</description>
+    </item>
+  </channel>
+</rss>

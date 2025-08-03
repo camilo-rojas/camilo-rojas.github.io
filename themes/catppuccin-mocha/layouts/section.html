@@ -1,0 +1,38 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+  
+  {{ if eq .Section "micro" }}
+    <div class="micro-posts">
+      {{ range .Pages }}
+        <div class="micro-post">
+          <div class="date">
+            <a href="{{ .RelPermalink }}">{{ .Date.Format "Jan 2, 15:04" }}</a>
+          </div>
+          <div class="content">{{ .Content }}</div>
+        </div>
+      {{ end }}
+    </div>
+  {{ else }}
+    <div class="post-list">
+      {{ range .Pages }}
+        <article class="post-item">
+          <h3 class="post-title">
+            <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+          </h3>
+          <div class="post-meta">
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+            {{ with .Params.tags }}
+              {{ range . }}
+                <span class="tag">#{{ . }}</span>
+              {{ end }}
+            {{ end }}
+          </div>
+          <div class="post-summary">
+            {{ .Summary }}
+          </div>
+        </article>
+      {{ end }}
+    </div>
+  {{ end }}
+{{ end }}
