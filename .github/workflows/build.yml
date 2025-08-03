@@ -27,7 +27,7 @@ jobs:
 
       - name: Build site
         run: |
-          hugo --minify --verbose
+          hugo --minify
           ls -la public/
 
       - name: Configure Git
