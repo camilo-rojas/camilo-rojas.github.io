@@ -39,8 +39,12 @@ jobs:
         env:
           PAT_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         run: |
-          # Clone the target repository using PAT token with x-access-token format
-          echo "Cloning target repository with PAT using x-access-token format... "
+          # Clear GitHub Actions auth headers that conflict with PAT
+          echo "Clearing conflicting git configuration..."
+          git config -l | grep 'http\..*\.extraheader' | cut -d= -f1 | xargs -L1 git config --unset-all || true
+          
+          # Clone the target repository using PAT token 
+          echo "Cloning target repository with PAT..."
           git clone https://x-access-token:${PAT_TOKEN}@github.com/camilo-rojas/camilo-rojas.github.io.git target-repo
           
           # Remove all existing files (except .git)
