@@ -40,7 +40,7 @@ jobs:
           PAT_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         run: |
           # Clear GitHub Actions auth headers that conflict with PAT
-          echo "Clearing conflicting git configuration..."
+          echo "Clearing conflicting git configuration... "
           git config -l | grep 'http\..*\.extraheader' | cut -d= -f1 | xargs -L1 git config --unset-all || true
           
           # Clone the target repository using PAT token 
