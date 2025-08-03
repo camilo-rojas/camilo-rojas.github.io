@@ -35,21 +35,15 @@ jobs:
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@users.noreply.github.com"
 
+      - name: Setup SSH Agent
+        uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+
       - name: Deploy to GitHub Pages repo
-        env:
-          DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
         run: |
-          # Setup SSH key for deployment
-          mkdir -p ~/.ssh
-          echo "$DEPLOY_KEY" > ~/.ssh/deploy_key
-          chmod 600 ~/.ssh/deploy_key
-          ssh-keyscan github.com >> ~/.ssh/known_hosts
-          
-          # Configure git to use the deploy key
-          export GIT_SSH_COMMAND="ssh -i ~/.ssh/deploy_key -o IdentitiesOnly=yes"
-          
-          # Clone the target repository using SSH
-          echo "Cloning target repository with SSH..."
+          # Clone the target repository using SSH with proper agent
+          echo "Cloning target repository with SSH agent..."
           git clone git@github.com:camilo-rojas/camilo-rojas.github.io.git target-repo
           
           # Remove all existing files (except .git)
