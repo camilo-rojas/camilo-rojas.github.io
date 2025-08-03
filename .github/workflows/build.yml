@@ -37,10 +37,11 @@ jobs:
 
       - name: Deploy to GitHub Pages repo
         env:
-          DEPLOY_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          PAT_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         run: |
-          # Clone the target repository
-          git clone https://${DEPLOY_TOKEN}@github.com/camilo-rojas/camilo-rojas.github.io.git target-repo
+          # Clone the target repository using PAT
+          echo "Cloning target repository..."
+          git clone https://camilo-rojas:${PAT_TOKEN}@github.com/camilo-rojas/camilo-rojas.github.io.git target-repo
           
           # Remove all existing files (except .git)
           cd target-repo
