@@ -40,7 +40,7 @@ jobs:
           DEPLOY_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         run: |
           # Clone the target repository
-          git clone https://x-access-token:${DEPLOY_TOKEN}@github.com/camilo-rojas/camilo-rojas.github.io.git target-repo
+          git clone https://${DEPLOY_TOKEN}@github.com/camilo-rojas/camilo-rojas.github.io.git target-repo
           
           # Remove all existing files (except .git)
           cd target-repo
