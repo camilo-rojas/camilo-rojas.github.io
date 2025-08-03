@@ -37,11 +37,20 @@ jobs:
 
       - name: Deploy to GitHub Pages repo
         env:
-          PAT_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
         run: |
-          # Clone the target repository using PAT
-          echo "Cloning target repository..."
-          git clone https://camilo-rojas:${PAT_TOKEN}@github.com/camilo-rojas/camilo-rojas.github.io.git target-repo
+          # Setup SSH key for deployment
+          mkdir -p ~/.ssh
+          echo "$DEPLOY_KEY" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+          
+          # Configure git to use the deploy key
+          export GIT_SSH_COMMAND="ssh -i ~/.ssh/deploy_key -o IdentitiesOnly=yes"
+          
+          # Clone the target repository using SSH
+          echo "Cloning target repository with SSH..."
+          git clone git@github.com:camilo-rojas/camilo-rojas.github.io.git target-repo
           
           # Remove all existing files (except .git)
           cd target-repo
