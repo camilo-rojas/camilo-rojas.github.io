@@ -40,7 +40,7 @@ jobs:
           PAT_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         run: |
           # Clone the target repository using PAT token with x-access-token format
-          echo "Cloning target repository with PAT using x-access-token format..."
+          echo "Cloning target repository with PAT using x-access-token format... "
           git clone https://x-access-token:${PAT_TOKEN}@github.com/camilo-rojas/camilo-rojas.github.io.git target-repo
           
           # Remove all existing files (except .git)
