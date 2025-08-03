@@ -93,4 +93,4 @@ This theme is based on the Catppuccin Mocha color palette:
 
 ## License
 
-This blog template is open source. Feel free to use it for your own projects!
+This blog template is open source. Feel free to use it for your own projects!# www
