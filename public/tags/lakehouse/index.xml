@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lakehouse on Camilo Rojas</title>
-    <link>http://localhost:1313/tags/lakehouse/</link>
+    <link>https://camilorojas.co/tags/lakehouse/</link>
     <description>Recent content in Lakehouse on Camilo Rojas</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 02 Jun 2021 17:20:27 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/lakehouse/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://camilorojas.co/tags/lakehouse/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lakehouse: La evolución de las arquitecturas de datos modernas</title>
-      <link>http://localhost:1313/archive/lakehouse-arquitectura-datos-moderna-2021/</link>
+      <link>https://camilorojas.co/archive/lakehouse-arquitectura-datos-moderna-2021/</link>
       <pubDate>Wed, 02 Jun 2021 17:20:27 +0000</pubDate>
-      <guid>http://localhost:1313/archive/lakehouse-arquitectura-datos-moderna-2021/</guid>
+      <guid>https://camilorojas.co/archive/lakehouse-arquitectura-datos-moderna-2021/</guid>
       <description>Explora la evolución de los repositorios de datos empresariales desde Data marts hasta Lakehouse, incluyendo casos de uso, arquitectura y mejores prácticas para implementar esta moderna aproximación de almacenamiento y procesamiento de datos.</description>
     </item>
   </channel>

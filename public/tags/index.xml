@@ -2,290 +2,290 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Camilo Rojas</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://camilorojas.co/tags/</link>
     <description>Recent content in Tags on Camilo Rojas</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 02 Jun 2021 17:20:27 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://camilorojas.co/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Analytics</title>
-      <link>http://localhost:1313/tags/analytics/</link>
+      <link>https://camilorojas.co/tags/analytics/</link>
       <pubDate>Wed, 02 Jun 2021 17:20:27 +0000</pubDate>
-      <guid>http://localhost:1313/tags/analytics/</guid>
+      <guid>https://camilorojas.co/tags/analytics/</guid>
       <description></description>
     </item>
     <item>
       <title>Big-Data</title>
-      <link>http://localhost:1313/tags/big-data/</link>
+      <link>https://camilorojas.co/tags/big-data/</link>
       <pubDate>Wed, 02 Jun 2021 17:20:27 +0000</pubDate>
-      <guid>http://localhost:1313/tags/big-data/</guid>
+      <guid>https://camilorojas.co/tags/big-data/</guid>
       <description></description>
     </item>
     <item>
       <title>Data Architecture</title>
-      <link>http://localhost:1313/tags/data-architecture/</link>
+      <link>https://camilorojas.co/tags/data-architecture/</link>
       <pubDate>Wed, 02 Jun 2021 17:20:27 +0000</pubDate>
-      <guid>http://localhost:1313/tags/data-architecture/</guid>
+      <guid>https://camilorojas.co/tags/data-architecture/</guid>
       <description></description>
     </item>
     <item>
       <title>Data Lake</title>
-      <link>http://localhost:1313/tags/data-lake/</link>
+      <link>https://camilorojas.co/tags/data-lake/</link>
       <pubDate>Wed, 02 Jun 2021 17:20:27 +0000</pubDate>
-      <guid>http://localhost:1313/tags/data-lake/</guid>
+      <guid>https://camilorojas.co/tags/data-lake/</guid>
       <description></description>
     </item>
     <item>
       <title>Data Warehouse</title>
-      <link>http://localhost:1313/tags/data-warehouse/</link>
+      <link>https://camilorojas.co/tags/data-warehouse/</link>
       <pubDate>Wed, 02 Jun 2021 17:20:27 +0000</pubDate>
-      <guid>http://localhost:1313/tags/data-warehouse/</guid>
+      <guid>https://camilorojas.co/tags/data-warehouse/</guid>
       <description></description>
     </item>
     <item>
       <title>Lakehouse</title>
-      <link>http://localhost:1313/tags/lakehouse/</link>
+      <link>https://camilorojas.co/tags/lakehouse/</link>
       <pubDate>Wed, 02 Jun 2021 17:20:27 +0000</pubDate>
-      <guid>http://localhost:1313/tags/lakehouse/</guid>
+      <guid>https://camilorojas.co/tags/lakehouse/</guid>
       <description></description>
     </item>
     <item>
       <title>AI</title>
-      <link>http://localhost:1313/tags/ai/</link>
+      <link>https://camilorojas.co/tags/ai/</link>
       <pubDate>Mon, 24 May 2021 20:02:03 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ai/</guid>
+      <guid>https://camilorojas.co/tags/ai/</guid>
       <description></description>
     </item>
     <item>
       <title>Data Catalog</title>
-      <link>http://localhost:1313/tags/data-catalog/</link>
+      <link>https://camilorojas.co/tags/data-catalog/</link>
       <pubDate>Mon, 24 May 2021 20:02:03 +0000</pubDate>
-      <guid>http://localhost:1313/tags/data-catalog/</guid>
+      <guid>https://camilorojas.co/tags/data-catalog/</guid>
       <description></description>
     </item>
     <item>
       <title>Data Governance</title>
-      <link>http://localhost:1313/tags/data-governance/</link>
+      <link>https://camilorojas.co/tags/data-governance/</link>
       <pubDate>Mon, 24 May 2021 20:02:03 +0000</pubDate>
-      <guid>http://localhost:1313/tags/data-governance/</guid>
+      <guid>https://camilorojas.co/tags/data-governance/</guid>
       <description></description>
     </item>
     <item>
       <title>Data Management</title>
-      <link>http://localhost:1313/tags/data-management/</link>
+      <link>https://camilorojas.co/tags/data-management/</link>
       <pubDate>Mon, 24 May 2021 20:02:03 +0000</pubDate>
-      <guid>http://localhost:1313/tags/data-management/</guid>
+      <guid>https://camilorojas.co/tags/data-management/</guid>
       <description></description>
     </item>
     <item>
       <title>Metadata</title>
-      <link>http://localhost:1313/tags/metadata/</link>
+      <link>https://camilorojas.co/tags/metadata/</link>
       <pubDate>Mon, 24 May 2021 20:02:03 +0000</pubDate>
-      <guid>http://localhost:1313/tags/metadata/</guid>
+      <guid>https://camilorojas.co/tags/metadata/</guid>
       <description></description>
     </item>
     <item>
       <title>Analytics Culture</title>
-      <link>http://localhost:1313/tags/analytics-culture/</link>
+      <link>https://camilorojas.co/tags/analytics-culture/</link>
       <pubDate>Mon, 17 May 2021 20:02:26 +0000</pubDate>
-      <guid>http://localhost:1313/tags/analytics-culture/</guid>
+      <guid>https://camilorojas.co/tags/analytics-culture/</guid>
       <description></description>
     </item>
     <item>
       <title>Data Strategy</title>
-      <link>http://localhost:1313/tags/data-strategy/</link>
+      <link>https://camilorojas.co/tags/data-strategy/</link>
       <pubDate>Mon, 17 May 2021 20:02:26 +0000</pubDate>
-      <guid>http://localhost:1313/tags/data-strategy/</guid>
+      <guid>https://camilorojas.co/tags/data-strategy/</guid>
       <description></description>
     </item>
     <item>
       <title>Data-Science</title>
-      <link>http://localhost:1313/tags/data-science/</link>
+      <link>https://camilorojas.co/tags/data-science/</link>
       <pubDate>Mon, 17 May 2021 20:02:26 +0000</pubDate>
-      <guid>http://localhost:1313/tags/data-science/</guid>
+      <guid>https://camilorojas.co/tags/data-science/</guid>
       <description></description>
     </item>
     <item>
       <title>Digital Transformation</title>
-      <link>http://localhost:1313/tags/digital-transformation/</link>
+      <link>https://camilorojas.co/tags/digital-transformation/</link>
       <pubDate>Mon, 17 May 2021 20:02:26 +0000</pubDate>
-      <guid>http://localhost:1313/tags/digital-transformation/</guid>
+      <guid>https://camilorojas.co/tags/digital-transformation/</guid>
       <description></description>
     </item>
     <item>
       <title>Organizational Change</title>
-      <link>http://localhost:1313/tags/organizational-change/</link>
+      <link>https://camilorojas.co/tags/organizational-change/</link>
       <pubDate>Mon, 17 May 2021 20:02:26 +0000</pubDate>
-      <guid>http://localhost:1313/tags/organizational-change/</guid>
+      <guid>https://camilorojas.co/tags/organizational-change/</guid>
       <description></description>
     </item>
     <item>
       <title>Adopción Tecnológica</title>
-      <link>http://localhost:1313/tags/adopci%C3%B3n-tecnol%C3%B3gica/</link>
+      <link>https://camilorojas.co/tags/adopci%C3%B3n-tecnol%C3%B3gica/</link>
       <pubDate>Tue, 11 May 2021 00:11:50 +0000</pubDate>
-      <guid>http://localhost:1313/tags/adopci%C3%B3n-tecnol%C3%B3gica/</guid>
+      <guid>https://camilorojas.co/tags/adopci%C3%B3n-tecnol%C3%B3gica/</guid>
       <description></description>
     </item>
     <item>
       <title>Artificial-Intelligence</title>
-      <link>http://localhost:1313/tags/artificial-intelligence/</link>
+      <link>https://camilorojas.co/tags/artificial-intelligence/</link>
       <pubDate>Tue, 11 May 2021 00:11:50 +0000</pubDate>
-      <guid>http://localhost:1313/tags/artificial-intelligence/</guid>
+      <guid>https://camilorojas.co/tags/artificial-intelligence/</guid>
       <description></description>
     </item>
     <item>
       <title>Business-Strategy</title>
-      <link>http://localhost:1313/tags/business-strategy/</link>
+      <link>https://camilorojas.co/tags/business-strategy/</link>
       <pubDate>Tue, 11 May 2021 00:11:50 +0000</pubDate>
-      <guid>http://localhost:1313/tags/business-strategy/</guid>
+      <guid>https://camilorojas.co/tags/business-strategy/</guid>
       <description></description>
     </item>
     <item>
       <title>Inteligencia Artificial</title>
-      <link>http://localhost:1313/tags/inteligencia-artificial/</link>
+      <link>https://camilorojas.co/tags/inteligencia-artificial/</link>
       <pubDate>Tue, 11 May 2021 00:11:50 +0000</pubDate>
-      <guid>http://localhost:1313/tags/inteligencia-artificial/</guid>
+      <guid>https://camilorojas.co/tags/inteligencia-artificial/</guid>
       <description></description>
     </item>
     <item>
       <title>Latin-America</title>
-      <link>http://localhost:1313/tags/latin-america/</link>
+      <link>https://camilorojas.co/tags/latin-america/</link>
       <pubDate>Tue, 11 May 2021 00:11:50 +0000</pubDate>
-      <guid>http://localhost:1313/tags/latin-america/</guid>
+      <guid>https://camilorojas.co/tags/latin-america/</guid>
       <description></description>
     </item>
     <item>
       <title>Latino América</title>
-      <link>http://localhost:1313/tags/latino-am%C3%A9rica/</link>
+      <link>https://camilorojas.co/tags/latino-am%C3%A9rica/</link>
       <pubDate>Tue, 11 May 2021 00:11:50 +0000</pubDate>
-      <guid>http://localhost:1313/tags/latino-am%C3%A9rica/</guid>
+      <guid>https://camilorojas.co/tags/latino-am%C3%A9rica/</guid>
       <description></description>
     </item>
     <item>
       <title>Machine Learning</title>
-      <link>http://localhost:1313/tags/machine-learning/</link>
+      <link>https://camilorojas.co/tags/machine-learning/</link>
       <pubDate>Tue, 11 May 2021 00:11:50 +0000</pubDate>
-      <guid>http://localhost:1313/tags/machine-learning/</guid>
+      <guid>https://camilorojas.co/tags/machine-learning/</guid>
       <description></description>
     </item>
     <item>
       <title>Transformación Digital</title>
-      <link>http://localhost:1313/tags/transformaci%C3%B3n-digital/</link>
+      <link>https://camilorojas.co/tags/transformaci%C3%B3n-digital/</link>
       <pubDate>Tue, 11 May 2021 00:11:50 +0000</pubDate>
-      <guid>http://localhost:1313/tags/transformaci%C3%B3n-digital/</guid>
+      <guid>https://camilorojas.co/tags/transformaci%C3%B3n-digital/</guid>
       <description></description>
     </item>
     <item>
       <title>IBM Cloud</title>
-      <link>http://localhost:1313/tags/ibm-cloud/</link>
+      <link>https://camilorojas.co/tags/ibm-cloud/</link>
       <pubDate>Thu, 19 Jul 2018 20:21:01 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ibm-cloud/</guid>
+      <guid>https://camilorojas.co/tags/ibm-cloud/</guid>
       <description></description>
     </item>
     <item>
       <title>Node-RED</title>
-      <link>http://localhost:1313/tags/node-red/</link>
+      <link>https://camilorojas.co/tags/node-red/</link>
       <pubDate>Thu, 19 Jul 2018 20:21:01 +0000</pubDate>
-      <guid>http://localhost:1313/tags/node-red/</guid>
+      <guid>https://camilorojas.co/tags/node-red/</guid>
       <description></description>
     </item>
     <item>
       <title>PaaS</title>
-      <link>http://localhost:1313/tags/paas/</link>
+      <link>https://camilorojas.co/tags/paas/</link>
       <pubDate>Thu, 19 Jul 2018 20:21:01 +0000</pubDate>
-      <guid>http://localhost:1313/tags/paas/</guid>
+      <guid>https://camilorojas.co/tags/paas/</guid>
       <description></description>
     </item>
     <item>
       <title>Twitter Analytics</title>
-      <link>http://localhost:1313/tags/twitter-analytics/</link>
+      <link>https://camilorojas.co/tags/twitter-analytics/</link>
       <pubDate>Thu, 19 Jul 2018 20:21:01 +0000</pubDate>
-      <guid>http://localhost:1313/tags/twitter-analytics/</guid>
+      <guid>https://camilorojas.co/tags/twitter-analytics/</guid>
       <description></description>
     </item>
     <item>
       <title>Video Tutorial</title>
-      <link>http://localhost:1313/tags/video-tutorial/</link>
+      <link>https://camilorojas.co/tags/video-tutorial/</link>
       <pubDate>Thu, 19 Jul 2018 20:21:01 +0000</pubDate>
-      <guid>http://localhost:1313/tags/video-tutorial/</guid>
+      <guid>https://camilorojas.co/tags/video-tutorial/</guid>
       <description></description>
     </item>
     <item>
       <title>Watson Data Platform</title>
-      <link>http://localhost:1313/tags/watson-data-platform/</link>
+      <link>https://camilorojas.co/tags/watson-data-platform/</link>
       <pubDate>Sun, 01 Jul 2018 19:46:01 +0000</pubDate>
-      <guid>http://localhost:1313/tags/watson-data-platform/</guid>
+      <guid>https://camilorojas.co/tags/watson-data-platform/</guid>
       <description></description>
     </item>
     <item>
       <title>Watson Studio</title>
-      <link>http://localhost:1313/tags/watson-studio/</link>
+      <link>https://camilorojas.co/tags/watson-studio/</link>
       <pubDate>Sun, 01 Jul 2018 19:46:01 +0000</pubDate>
-      <guid>http://localhost:1313/tags/watson-studio/</guid>
+      <guid>https://camilorojas.co/tags/watson-studio/</guid>
       <description></description>
     </item>
     <item>
       <title>Cloud</title>
-      <link>http://localhost:1313/tags/cloud/</link>
+      <link>https://camilorojas.co/tags/cloud/</link>
       <pubDate>Wed, 17 Sep 2014 00:19:47 +0000</pubDate>
-      <guid>http://localhost:1313/tags/cloud/</guid>
+      <guid>https://camilorojas.co/tags/cloud/</guid>
       <description></description>
     </item>
     <item>
       <title>Freemium</title>
-      <link>http://localhost:1313/tags/freemium/</link>
+      <link>https://camilorojas.co/tags/freemium/</link>
       <pubDate>Wed, 17 Sep 2014 00:19:47 +0000</pubDate>
-      <guid>http://localhost:1313/tags/freemium/</guid>
+      <guid>https://camilorojas.co/tags/freemium/</guid>
       <description></description>
     </item>
     <item>
       <title>Ibm</title>
-      <link>http://localhost:1313/tags/ibm/</link>
+      <link>https://camilorojas.co/tags/ibm/</link>
       <pubDate>Wed, 17 Sep 2014 00:19:47 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ibm/</guid>
+      <guid>https://camilorojas.co/tags/ibm/</guid>
       <description></description>
     </item>
     <item>
       <title>Watson Analytics</title>
-      <link>http://localhost:1313/tags/watson-analytics/</link>
+      <link>https://camilorojas.co/tags/watson-analytics/</link>
       <pubDate>Wed, 17 Sep 2014 00:19:47 +0000</pubDate>
-      <guid>http://localhost:1313/tags/watson-analytics/</guid>
+      <guid>https://camilorojas.co/tags/watson-analytics/</guid>
       <description></description>
     </item>
     <item>
       <title>Hadoop</title>
-      <link>http://localhost:1313/tags/hadoop/</link>
+      <link>https://camilorojas.co/tags/hadoop/</link>
       <pubDate>Tue, 15 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/hadoop/</guid>
+      <guid>https://camilorojas.co/tags/hadoop/</guid>
       <description></description>
     </item>
     <item>
       <title>South-America</title>
-      <link>http://localhost:1313/tags/south-america/</link>
+      <link>https://camilorojas.co/tags/south-america/</link>
       <pubDate>Tue, 15 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/south-america/</guid>
+      <guid>https://camilorojas.co/tags/south-america/</guid>
       <description></description>
     </item>
     <item>
       <title>Technology-Adoption</title>
-      <link>http://localhost:1313/tags/technology-adoption/</link>
+      <link>https://camilorojas.co/tags/technology-adoption/</link>
       <pubDate>Tue, 15 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/technology-adoption/</guid>
+      <guid>https://camilorojas.co/tags/technology-adoption/</guid>
       <description></description>
     </item>
     <item>
       <title>Smac</title>
-      <link>http://localhost:1313/tags/smac/</link>
+      <link>https://camilorojas.co/tags/smac/</link>
       <pubDate>Tue, 08 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/smac/</guid>
+      <guid>https://camilorojas.co/tags/smac/</guid>
       <description></description>
     </item>
     <item>
       <title>Watson</title>
-      <link>http://localhost:1313/tags/watson/</link>
+      <link>https://camilorojas.co/tags/watson/</link>
       <pubDate>Tue, 08 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/watson/</guid>
+      <guid>https://camilorojas.co/tags/watson/</guid>
       <description></description>
     </item>
   </channel>

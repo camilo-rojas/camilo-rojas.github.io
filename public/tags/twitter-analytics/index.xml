@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Twitter Analytics on Camilo Rojas</title>
-    <link>http://localhost:1313/tags/twitter-analytics/</link>
+    <link>https://camilorojas.co/tags/twitter-analytics/</link>
     <description>Recent content in Twitter Analytics on Camilo Rojas</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 19 Jul 2018 20:21:01 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/twitter-analytics/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://camilorojas.co/tags/twitter-analytics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Video Tutorial: Análisis de Tweets con IBM Cloud y Node-RED</title>
-      <link>http://localhost:1313/archive/tutorial-analisis-tweets-ibm-cloud/</link>
+      <link>https://camilorojas.co/archive/tutorial-analisis-tweets-ibm-cloud/</link>
       <pubDate>Thu, 19 Jul 2018 20:21:01 +0000</pubDate>
-      <guid>http://localhost:1313/archive/tutorial-analisis-tweets-ibm-cloud/</guid>
+      <guid>https://camilorojas.co/archive/tutorial-analisis-tweets-ibm-cloud/</guid>
       <description>Tutorial introductorio sobre cómo usar la plataforma PaaS de IBM Cloud para crear un flujo básico de captura y análisis de tweets usando Node-RED y Node.js.</description>
     </item>
   </channel>
