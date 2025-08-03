@@ -5,6 +5,10 @@ on:
     branches: [ main ]
   workflow_dispatch:
 
+# Disable automatic Pages setup
+permissions:
+  contents: read
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
