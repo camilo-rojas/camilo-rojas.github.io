@@ -1,37 +1,62 @@
-name: Build and Publish Site
+name: Deploy Hugo Site
 
 on:
   push:
     branches: [ main ]
   workflow_dispatch:
 
+env:
+  HUGO_VERSION: 0.148.2
+
 jobs:
-  build-and-deploy:
+  deploy:
     runs-on: ubuntu-latest
+    # Don't set any permissions that might trigger Pages detection
     steps:
-      - name: Checkout
+      - name: Checkout source
         uses: actions/checkout@v4
         with:
-          submodules: true
           fetch-depth: 0
+          submodules: true
 
-      - name: Install Hugo
+      - name: Setup Hugo
         run: |
-          HUGO_VERSION=0.148.2
-          wget -O hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb
-          sudo dpkg -i hugo.deb
+          curl -sSL https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz | tar -xzf -
+          sudo mv hugo /usr/local/bin/
+          hugo version
 
       - name: Build site
-        run: hugo --minify
-
-      - name: Deploy to external repository
         run: |
-          cd public
-          git init
-          git config user.name 'github-actions[bot]'
-          git config user.email 'github-actions[bot]@users.noreply.github.com'
-          git add .
-          git commit -m "Deploy from private repo - $(date '+%Y-%m-%d %H:%M:%S')"
-          git branch -M main
-          git remote add origin https://x-access-token:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/camilo-rojas/camilo-rojas.github.io.git
-          git push -f origin main
+          hugo --minify --verbose
+          ls -la public/
+
+      - name: Configure Git
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@users.noreply.github.com"
+
+      - name: Deploy to GitHub Pages repo
+        env:
+          DEPLOY_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        run: |
+          # Clone the target repository
+          git clone https://x-access-token:${DEPLOY_TOKEN}@github.com/camilo-rojas/camilo-rojas.github.io.git target-repo
+          
+          # Remove all existing files (except .git)
+          cd target-repo
+          find . -maxdepth 1 ! -name '.git' ! -name '.' -exec rm -rf {} +
+          
+          # Copy new files
+          cp -r ../public/* .
+          
+          # Add and commit
+          git add -A
+          
+          # Only commit if there are changes
+          if git diff --staged --quiet; then
+            echo "No changes to deploy"
+          else
+            git commit -m "Deploy site - $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+            git push origin main
+            echo "Site deployed successfully"
+          fi
