@@ -46,4 +46,4 @@ jobs:
           user-email: 'actions@users.noreply.github.com'
           user-name: 'GitHub Actions'
           target-branch: 'main'
-          commit-message: 'Deploy Hugo site - ${{ github.sha }}'
+          commit-message: 'Deploy Hugo - ${{ github.sha }}'
