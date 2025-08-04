@@ -36,32 +36,14 @@ jobs:
           git config --global user.email "actions@users.noreply.github.com"
 
       - name: Deploy to GitHub Pages repo
+        uses: cpina/github-action-push-to-another-repository@main
         env:
-          PAT_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-        run: |
-          # Clear GitHub Actions auth headers that conflict with PAT
-          echo "Clearing conflicting git configuration... "
-          git config -l | grep 'http\..*\.extraheader' | cut -d= -f1 | xargs -L1 git config --unset-all || true
-          
-          # Clone the target repository using PAT token 
-          echo "Cloning target repository with PAT..."
-          git clone https://x-access-token:${PAT_TOKEN}@github.com/camilo-rojas/camilo-rojas.github.io.git target-repo
-          
-          # Remove all existing files (except .git)
-          cd target-repo
-          find . -maxdepth 1 ! -name '.git' ! -name '.' -exec rm -rf {} +
-          
-          # Copy new files
-          cp -r ../public/* .
-          
-          # Add and commit
-          git add -A
-          
-          # Only commit if there are changes
-          if git diff --staged --quiet; then
-            echo "No changes to deploy"
-          else
-            git commit -m "Deploy site - $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
-            git push origin main
-            echo "Site deployed successfully with PAT x-access-token format - test 2 at $(date)"
-          fi
+          SSH_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+        with:
+          source-directory: 'public'
+          destination-github-username: 'camilo-rojas'
+          destination-repository-name: 'camilo-rojas.github.io'
+          user-email: 'actions@users.noreply.github.com'
+          user-name: 'GitHub Actions'
+          target-branch: 'main'
+          commit-message: 'Deploy Hugo site - ${{ github.sha }}'
