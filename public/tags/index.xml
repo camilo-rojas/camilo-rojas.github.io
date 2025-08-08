@@ -6,20 +6,62 @@
     <description>Recent content in Tags on Camilo Rojas</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 06 Aug 2025 19:15:29 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 07 Aug 2025 10:56:49 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Agents</title>
       <link>http://localhost:1313/tags/agents/</link>
-      <pubDate>Wed, 06 Aug 2025 19:15:29 -0400</pubDate>
+      <pubDate>Thu, 07 Aug 2025 10:56:49 -0400</pubDate>
       <guid>http://localhost:1313/tags/agents/</guid>
       <description></description>
     </item>
     <item>
       <title>AI</title>
       <link>http://localhost:1313/tags/ai/</link>
-      <pubDate>Wed, 06 Aug 2025 19:15:29 -0400</pubDate>
+      <pubDate>Thu, 07 Aug 2025 10:56:49 -0400</pubDate>
       <guid>http://localhost:1313/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Catalogs</title>
+      <link>http://localhost:1313/tags/catalogs/</link>
+      <pubDate>Thu, 07 Aug 2025 10:56:49 -0400</pubDate>
+      <guid>http://localhost:1313/tags/catalogs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Enterprise</title>
+      <link>http://localhost:1313/tags/enterprise/</link>
+      <pubDate>Thu, 07 Aug 2025 10:56:49 -0400</pubDate>
+      <guid>http://localhost:1313/tags/enterprise/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gateways</title>
+      <link>http://localhost:1313/tags/gateways/</link>
+      <pubDate>Thu, 07 Aug 2025 10:56:49 -0400</pubDate>
+      <guid>http://localhost:1313/tags/gateways/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Governance</title>
+      <link>http://localhost:1313/tags/governance/</link>
+      <pubDate>Thu, 07 Aug 2025 10:56:49 -0400</pubDate>
+      <guid>http://localhost:1313/tags/governance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MCP</title>
+      <link>http://localhost:1313/tags/mcp/</link>
+      <pubDate>Thu, 07 Aug 2025 10:56:49 -0400</pubDate>
+      <guid>http://localhost:1313/tags/mcp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Security</title>
+      <link>http://localhost:1313/tags/security/</link>
+      <pubDate>Thu, 07 Aug 2025 10:56:49 -0400</pubDate>
+      <guid>http://localhost:1313/tags/security/</guid>
       <description></description>
     </item>
     <item>
@@ -30,24 +72,10 @@
       <description></description>
     </item>
     <item>
-      <title>Enterprise</title>
-      <link>http://localhost:1313/tags/enterprise/</link>
-      <pubDate>Wed, 06 Aug 2025 19:15:29 -0400</pubDate>
-      <guid>http://localhost:1313/tags/enterprise/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Low-Code</title>
       <link>http://localhost:1313/tags/low-code/</link>
       <pubDate>Wed, 06 Aug 2025 19:15:29 -0400</pubDate>
       <guid>http://localhost:1313/tags/low-code/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>MCP</title>
-      <link>http://localhost:1313/tags/mcp/</link>
-      <pubDate>Wed, 06 Aug 2025 19:15:29 -0400</pubDate>
-      <guid>http://localhost:1313/tags/mcp/</guid>
       <description></description>
     </item>
     <item>

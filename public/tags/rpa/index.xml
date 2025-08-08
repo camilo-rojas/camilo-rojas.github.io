@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RPA on Camilo Rojas</title>
+    <link>http://localhost:1313/tags/rpa/</link>
+    <description>Recent content in RPA on Camilo Rojas</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 07 Aug 2025 20:12:44 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/rpa/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Convergence AI</title>
+      <link>http://localhost:1313/posts/convergence-ai/</link>
+      <pubDate>Thu, 07 Aug 2025 20:12:44 -0400</pubDate>
+      <guid>http://localhost:1313/posts/convergence-ai/</guid>
+      <description>Chatbots, intelligent process automation, and generative AI are converging into an AI Agents stack. Here’s what’s driving the shift, who’s involved, and how to evaluate investments through a generative lens.</description>
+    </item>
+  </channel>
+</rss>
