@@ -21,6 +21,7 @@ main > h1:not(article header h1) {
 /* Reduce space between site header and main content */
 body > header {
     margin-bottom: 1rem !important;
+    padding: 1rem 0; /* match footer */
 }
 
 main {
@@ -43,9 +44,10 @@ body {
     min-height: 100vh !important;
 }
 
-/* Ensure footer stays at bottom but doesn't create excessive space */
+/* Ensure footer stays at bottom and mirrors header spacing */
 footer {
     margin-top: auto;
+    padding: 1rem 0; /* match header default padding */
 }
 
 /* Improve section page layout */
@@ -309,6 +311,7 @@ h1, h2, h3, h4, h5, h6 {
 
     /* Header compression */
     body > header { padding: 0.6rem 0 !important; }
+    footer { padding: 0.6rem 0 !important; }
     .header-content { gap: 0.6rem !important; }
     .site-title { font-size: 1.25rem !important; }
 
