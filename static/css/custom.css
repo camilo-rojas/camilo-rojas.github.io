@@ -44,7 +44,7 @@ body {
     min-height: 100vh !important;
 }
 
-/* Ensure footer stays at bottom and mirrors header spacing */
+/* Ensure footer stays at bottom and mirrors header spacing*/
 footer {
     margin-top: auto;
     padding: 1rem 0; /* match header default padding */
