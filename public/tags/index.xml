@@ -6,8 +6,64 @@
     <description>Recent content in Tags on Camilo Rojas</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 02 Aug 2025 22:28:50 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 06 Aug 2025 19:15:29 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agents</title>
+      <link>http://localhost:1313/tags/agents/</link>
+      <pubDate>Wed, 06 Aug 2025 19:15:29 -0400</pubDate>
+      <guid>http://localhost:1313/tags/agents/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI</title>
+      <link>http://localhost:1313/tags/ai/</link>
+      <pubDate>Wed, 06 Aug 2025 19:15:29 -0400</pubDate>
+      <guid>http://localhost:1313/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Development</title>
+      <link>http://localhost:1313/tags/development/</link>
+      <pubDate>Wed, 06 Aug 2025 19:15:29 -0400</pubDate>
+      <guid>http://localhost:1313/tags/development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Enterprise</title>
+      <link>http://localhost:1313/tags/enterprise/</link>
+      <pubDate>Wed, 06 Aug 2025 19:15:29 -0400</pubDate>
+      <guid>http://localhost:1313/tags/enterprise/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Low-Code</title>
+      <link>http://localhost:1313/tags/low-code/</link>
+      <pubDate>Wed, 06 Aug 2025 19:15:29 -0400</pubDate>
+      <guid>http://localhost:1313/tags/low-code/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MCP</title>
+      <link>http://localhost:1313/tags/mcp/</link>
+      <pubDate>Wed, 06 Aug 2025 19:15:29 -0400</pubDate>
+      <guid>http://localhost:1313/tags/mcp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>No-Code</title>
+      <link>http://localhost:1313/tags/no-code/</link>
+      <pubDate>Wed, 06 Aug 2025 19:15:29 -0400</pubDate>
+      <guid>http://localhost:1313/tags/no-code/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Standards</title>
+      <link>http://localhost:1313/tags/standards/</link>
+      <pubDate>Wed, 06 Aug 2025 19:15:29 -0400</pubDate>
+      <guid>http://localhost:1313/tags/standards/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Agentic</title>
       <link>http://localhost:1313/tags/agentic/</link>
@@ -97,13 +153,6 @@
       <link>http://localhost:1313/tags/lakehouse/</link>
       <pubDate>Wed, 02 Jun 2021 17:20:27 +0000</pubDate>
       <guid>http://localhost:1313/tags/lakehouse/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>AI</title>
-      <link>http://localhost:1313/tags/ai/</link>
-      <pubDate>Mon, 24 May 2021 20:02:03 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ai/</guid>
       <description></description>
     </item>
     <item>

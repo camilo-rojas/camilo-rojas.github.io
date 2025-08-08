@@ -6,8 +6,22 @@
     <description>Recent content in AI for Business on Camilo Rojas</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 02 Aug 2025 22:28:50 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 06 Aug 2025 19:15:29 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Evolution of AI Agent Development: From Complex Engineering to Accessible Tools</title>
+      <link>http://localhost:1313/posts/building-agents/</link>
+      <pubDate>Wed, 06 Aug 2025 19:15:29 -0400</pubDate>
+      <guid>http://localhost:1313/posts/building-agents/</guid>
+      <description>Exploring how AI agent development has evolved from requiring deep technical expertise to accessible no-code platforms, the emergence of domain-specific agents, and the critical role of industry standards in fostering innovation.</description>
+    </item>
+    <item>
+      <title>Convergence Ai</title>
+      <link>http://localhost:1313/posts/convergence-ai/</link>
+      <pubDate>Mon, 04 Aug 2025 20:12:44 -0400</pubDate>
+      <guid>http://localhost:1313/posts/convergence-ai/</guid>
+      <description>&lt;p&gt;There are several IT industry segments that are converging.  Chatbots and conversational solutions, Intelligent process automation (including BPM, RPA and others), and finally AI are all converging into one common segment AI Agents.  The usual industry participants in each segment are scrambling to find a way to participate in the new AI Agents stack.&lt;/p&gt;&#xA;&lt;p&gt;Conversational solutions providers: 1. kore.ai, Genesys, AWS, Microsoft, 4. IBM with watsonx Assistant. TAM 32B, 40% CAGR&#xA;Intelligent process automation providers: 1. Pega, 2. UIPath, 3. Microsoft, 4. IBM Cloud Pak for Business Automation. TAM 102B, 24% CAGR.&#xA;AI Agents: 1. Claude, 2. Google, 3. Microsoft, 4. AWS, 5. Salesforce, 6. IBM watsonx. TAM 14B, 51% CAGR.&#xA;(Source: IDC 1) AI &amp;amp; GenAI spending guide (202408) 2) $20B are AI powered automation, Intelligent Process Automation Forecast (202408))&lt;/p&gt;</description>
+    </item>
     <item>
       <title>AI Agents: The Next Layer in Enterprise Architecture</title>
       <link>http://localhost:1313/posts/ai-agents/</link>
