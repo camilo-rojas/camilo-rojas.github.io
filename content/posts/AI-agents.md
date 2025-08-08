@@ -1,5 +1,5 @@
 ---
-title: "AI Agents: The Next Layer in Enterprise Architecture"
+title: "AI Agents: The Next Layer in Enterprise Architecture "
 date: 2025-08-02T22:28:50-04:00
 draft: false
 tags: [agentic, domain agents, hr, procurement, sales, enterprise architecture, automation]
